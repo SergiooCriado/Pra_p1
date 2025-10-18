@@ -9,7 +9,8 @@ class Node {
 
 	Node(T data, Node<T>* next=nullptr){
 
-	data(data),next(next);
+	this->data = data;
+	this->next = next;
 
 	}
 
