@@ -8,6 +8,7 @@ class List{
 	void append(T e);
 	void prepend(T e);
 	T remove(int pos);
+	T get(int pos);
 	bool empty();
 	int size();
 
